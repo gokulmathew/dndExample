@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.item-container {
+  width: 40%;
+}
+
+.card-container {
+  margin-top: 80px;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+/* .target {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid grey;
+  margin: 80px;
+ 
+} */
+
+.table{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: blueviolet;
+  height: auto;
+}
+
+
+
+.target{
+ 
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  
+  justify-content: space-between;
+  border: 1px solid grey;
+  /* flex: 1 1 150px;
+  flex: 0 1 150px; */
+  margin: 5px; 
+  background-color: aqua;
+}
+
+.box{
+  border-radius: 5px;
+  width: 80px;
+  background-color: white;
+  padding: 1rem;
+  margin: 5px;
+  color: black;
+  border: solid;
+  border-width: 1px;
+}
+
